@@ -1,0 +1,94 @@
+# ==============================
+# Python 特定文件
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 包元数据
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 单元测试和覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ==============================
+# 构建与分发文件
+# ==============================
+dist/
+build/
+develop-eggs/
+parts/
+var/
+wheels/
+site-packages/
+
+# ==============================
+# IDE 配置文件
+# ==============================
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# ==============================
+# 系统文件
+# ==============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==============================
+# 日志与临时文件
+# ==============================
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# 环境变量与敏感数据
+# ==============================
+.env
+.venv
+*.key
+*.pem
+
+# ==============================
+# 数据库文件
+# ==============================
+*.db
+*.sqlite3
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
